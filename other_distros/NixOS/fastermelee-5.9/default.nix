@@ -90,7 +90,7 @@ let
 
     nativeBuildInputs = [ pkgconfig cmake ];
 
-    buildInputs = [ bluez ffmpeg libao libGLU_combined gtk2 glib
+    buildInputs = [ bluez ffmpeg libao gtk2 glib
     gettext libpthreadstubs libXrandr libXext libX11 libSM readline
     openal libevdev libXdmcp portaudio libusb libpulseaudio gnumake
     wxGTK31 soundtouch miniupnpc mbedtls curl lzo sfml ];
