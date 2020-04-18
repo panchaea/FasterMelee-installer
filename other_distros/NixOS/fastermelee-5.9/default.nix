@@ -1,6 +1,6 @@
 { stdenv, pkgconfig, cmake, bluez, ffmpeg, libao, gtk2, glib
 , gettext, libpthreadstubs, libXrandr, libXext, libX11, libSM, readline, openal
-, libXdmcp, portaudio, fetchFromGitHub, libusb, libevdev, automake, autobuild
+, libXdmcp, portaudio, fetchFromGitHub, libusb, libudev, libevdev, automake, autobuild
 , wxGTK31, soundtouch, miniupnpc, mbedtls, curl, lzo, sfml, gnumake
 , writeShellScriptBin, symlinkJoin, libpulseaudio ? null, sys ? null, user ? null }:
 
@@ -92,7 +92,7 @@ let
 
     buildInputs = [ bluez ffmpeg libao gtk2 glib
     gettext libpthreadstubs libXrandr libXext libX11 libSM readline
-    openal libevdev libXdmcp portaudio libusb libpulseaudio gnumake
+    openal libudev libevdev libXdmcp portaudio libusb libpulseaudio gnumake
     wxGTK31 soundtouch miniupnpc mbedtls curl lzo sfml ];
 
   };
