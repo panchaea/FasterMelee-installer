@@ -1,4 +1,4 @@
-{ stdenv, pkgconfig, cmake, bluez, ffmpeg, libao, gtk2, glib, libGLU_combined
+{ stdenv, pkgconfig, cmake, bluez, ffmpeg, libao, gtk2, glib
 , gettext, libpthreadstubs, libXrandr, libXext, libX11, libSM, readline, openal
 , libXdmcp, portaudio, fetchFromGitHub, libusb, libevdev, automake, autobuild
 , wxGTK31, soundtouch, miniupnpc, mbedtls, curl, lzo, sfml, gnumake
